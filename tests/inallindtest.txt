@@ -1,8 +1,0 @@
-all BaseModel
-all User
-all Place
-all Review
-all Amenity
-all State
-all City
-all asdffdsafasdf
