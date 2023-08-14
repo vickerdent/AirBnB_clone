@@ -235,11 +235,11 @@ class HBNBCommand(cmd.Cmd):
                 setattr(obj, attr, dicty[attr])
 
     def do_quit(self, arg):
-        """Quit the shell"""
+        """Quit command to exit the program"""
         return 1
 
     def do_EOF(self, arg):
-        """Quit the shell"""
+        """Quit the program"""
         print()
         return 1
 
