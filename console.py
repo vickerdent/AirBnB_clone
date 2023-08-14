@@ -16,6 +16,7 @@ Review = models.review.Review
 City = models.city.City
 storage = models.storage
 
+
 class HBNBCommand(cmd.Cmd):
     """Command line console for HBNB. Use 'help' or '?' in console
     for command documentation.
@@ -245,6 +246,7 @@ class HBNBCommand(cmd.Cmd):
     def emptyline(self):
         """Don't do anything if there's an empty line"""
         return 0
+
 
 if __name__ == "__main__":
     HBNBCommand().cmdloop()
