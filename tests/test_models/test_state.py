@@ -6,6 +6,7 @@ import pep8
 from models.state import State
 from models.base_model import BaseModel
 
+
 class TestState(unittest.TestCase):
 
     @classmethod
@@ -50,6 +51,7 @@ class TestState(unittest.TestCase):
 
     def test_to_dict(self):
         self.assertEqual('to_dict' in dir(self.state1), True)
+
 
 if __name__ == "__main__":
     unittest.main()

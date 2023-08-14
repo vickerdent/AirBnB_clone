@@ -6,6 +6,7 @@ import pep8
 from models.place import Place
 from models.base_model import BaseModel
 
+
 class TestPlace(unittest.TestCase):
 
     @classmethod
@@ -80,6 +81,7 @@ class TestPlace(unittest.TestCase):
 
     def test_to_dict(self):
         self.assertEqual('to_dict' in dir(self.place1), True)
+
 
 if __name__ == "__main__":
     unittest.main()

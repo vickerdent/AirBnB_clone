@@ -10,6 +10,7 @@ import io
 from contextlib import redirect_stdout
 from models.engine.file_storage import FileStorage
 
+
 class TestConsole(unittest.TestCase):
     """Tests for the console"""
 

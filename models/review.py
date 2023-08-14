@@ -4,6 +4,7 @@ Defines the Review class
 '''
 from models.base_model import BaseModel
 
+
 class Review(BaseModel):
     '''Reviews for Hbnb application
 

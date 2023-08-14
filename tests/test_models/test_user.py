@@ -6,6 +6,7 @@ import pep8
 from models.user import User
 from models.base_model import BaseModel
 
+
 class TestUser(unittest.TestCase):
 
     @classmethod
@@ -59,6 +60,7 @@ class TestUser(unittest.TestCase):
 
     def test_user_to_dict(self):
         self.assertEqual('to_dict' in dir(self.my_user), True)
+
 
 if __name__ == "__main__":
     unittest.main()

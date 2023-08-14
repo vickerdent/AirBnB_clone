@@ -6,6 +6,7 @@ import unittest
 import pep8
 from models.base_model import BaseModel
 
+
 class TestBaseModelClass(unittest.TestCase):
     '''Testing BaseModel Class
 
